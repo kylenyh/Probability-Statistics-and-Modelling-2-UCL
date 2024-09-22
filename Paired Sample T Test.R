@@ -1,7 +1,7 @@
 # a Paired Sample T-Test is used to compare the means of two related groups that are measured under two different conditions, or when there is a natural pairing between the subjects in the two groups.
 
-# H0: the mean difference between the paired observations is zero.
-# HA: the mean difference between the paired observations is not zero.
+# H0: there is no significant difference in the mean test scores of students before and after the study program.
+# HA: there is a significant difference in the mean test scores of students before and after the study program.
 # p-val < sig level reject H0
 # p-val > sig level accept H0
 
