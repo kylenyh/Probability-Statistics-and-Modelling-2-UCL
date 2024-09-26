@@ -11,77 +11,77 @@ This module equips students with the knowledge needed to understand and critical
 
 **Libraries**: `ggplot2`
 
-#### Multiple Linear Regression Model
+### Multiple Linear Regression Model
 * Created a multiple linear regression model between between age, education and experience with income
 * Created a multiple linear regression model to quantify the relationship between age, education and experience with income
 * Used the logistic regression results to make conclusions on hypotheses statements
 
 **Libraries**: `ggplot2`
 
-#### Binary Logistic Regression Model
+### Binary Logistic Regression Model
 * Created a binary logistic regression model between patient age, BMI level and probability of getting heart disease
 * Conducted a logistic regression analysis to identify probability of patients getting cancer based on age and BMI level
 * Used the logistic regression results to make conclusions on hypotheses statements
 
 **Libraries**: `ggplot2`
 
-#### Ordinal Logistic Regression Model
+### Ordinal Logistic Regression Model
 * Created an ordinal logistic regression model between hours of training and satisfaction levels
 * Conducted an ordinal logistic regression analysis to identify probability between hours of training and satisfaction levels
 * Used the ordinal logistic regression results to make conclusions on hypotheses statements
 
 **Libraries**: `MASS`, `tidyr`, `ggplot2`
 
-#### Nominal Logistic Regression Model
+### Nominal Logistic Regression Model
 * Created a nominal logistic regression model between age and product preferences
 * Conducted a nominal logistic regression analysis to identify probability between age and product preferences
 * Used the nominal logistic regression results to make conclusions on hypotheses statements
 
 **Libraries**: `nnet`, `tidyr`, `ggplot2`
 
-#### Friedman Anova-Test
+### Friedman Anova-Test
 * Created a sample dataset of 45 students under 3 different teaching methods to conduct mean test score analysis 
 * Conducted a Friedman anova-test to make comparison between students and 3 teaching methods and students' median test scores
 * Used the Friedman anova-test results to make conclusions on hypotheses statements
 
 **Libraries**: `ggplot2`, `reshape2`
 
-#### Pearson Correlation Test
+### Pearson Correlation Test
 * Imported a trees dataset to conduct linear correlation analysis between girth and height
 * Conducted a Pearson correlation test to test the linear correlation between girth and height
 * Used the Pearson correlation test results to make conclusions on hypotheses statements
 
 **Libraries**: `ggplot2`
 
-#### Spearman Rank Correlation Test
+### Spearman Rank Correlation Test
 * Imported a cars dataset to conduct rank correlation analysis between galons per hour and horsepower
 * Conducted a Spearman Rank correlation test to test the monotonic correlation between girth and height
 * Used the Spearman Rank correlation test results to make conclusions on hypotheses statements
 
 **Libraries**: `ggplot2`
 
-#### Kruskall Wallis Test
+### Kruskall Wallis Test
 * Created a sample dataset of 45 customers from 3 different stores to conduct median difference analysis between the stores and median customers' satisfaction ratings
 * Conducted a Kruskall Wallis test to differences in the median values of customer satisfaction ratings among stores A, B, C
 * Used the Kruskall Wallis test results to make conclusions on hypotheses statements
   
 **Libraries**: `ggplot2`, `reshape2`
 
-#### One Sample Wilcoxon Test
+### One Sample Wilcoxon Test
 * Created a sample dataset of 30 patients from 3 different stores to conduct median weight loss value analysis
 * Conducted a One Sample Wilcoxon test to compare differences in the actual median values of patients' weight loss and hypothesized median values of patients' weight loss
 * Used the One Sample Wilcoxon test results to make conclusions on hypotheses statements
 
 **Libraries**: `ggplot2`
 
-#### Two Sample Wilcoxon Test
+### Two Sample Wilcoxon Test
 * Created a sample dataset of 60 patients from 2 different groups to conduct median weight loss value analysis
 * Conducted a two Sample Wilcoxon test to compare differences in the distributions of patients' weight loss values across groups A and B
 * Used the Two Sample Wilcoxon test results to make conclusions on hypotheses statements
 
 **Libraries**: `ggplot2`
 
-#### Mann Whitney U Test
+### Mann Whitney U Test
 * Created a sample dataset of 30 customers from 2 different stores to conduct customer satisfaction ratings analysis
 * Conducted a two Sample Wilcoxon test to compare the distributions of customer satisfaction ratings between Store A and Store B
 * Used the Mann Whitney U Test test results to make conclusions on hypotheses statements
