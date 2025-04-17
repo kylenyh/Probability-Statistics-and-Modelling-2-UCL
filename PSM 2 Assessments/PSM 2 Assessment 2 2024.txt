@@ -1,0 +1,21 @@
+Assessment aim
+In this project, you will demonstrate your command of the statistical concepts covered in the lectures and tutorials. We will provide a dataset, and your task will be to assess the data to address several research questions. The type of analysis you will pursue will be your choice; you can use any of the analytical methods covered throughout the course. A key element of this assessment is your justification for choosing a certain model, and the aptness of the inferences you make based on the results.
+
+Assessment procedure
+You must submit a single report comprising no more than 1,500 words, including the title, headings, footnotes, tables, references, but not the annotated code used for the analysis. You can divide up these 1,500 words as you wish, the below-mentioned word counts for each section are merely suggestions. In addition, you must submit your R script so the analysis you carried out could be replicated by us.
+
+Introduction: Based on the documentation of the dataset you were given, summarise the main strengths and limitations of the data, and the kind of inferences you can make. Briefly mention any descriptive statistics you deem noteworthy (e.g., sample size, time of data collection). (150 words)
+Methods: Outline the analytical approach you decided to take. Why do you think the chosen model is an appropriate fit for the variables of interest? What made this model preferable to other alternatives? How did you decide which variables to add to / exclude from your model? (200 words)
+Tables and Results: Carry out the analysis you outlined above and explain the emerging results. There should be a step-by-step guide including even the most mundane steps (such as loading a certain library), with a justification for each one. The emerging results should be presented in well-formatted tables (i.e., not raw R output). The relevant statistics should be reported following the conventions discussed in class, including the non-significant results. Careful and cogent interpretation should be given for the results. (1000 words)
+Discussion: Briefly discuss the policy relevance of the above findings, and the policy implications, if any. (150 words)
+This is an ‘open book’ examination. You are free to use any written materials you find useful, including your own notes and annotations. It is allowed to use generative AI tools, but you must reference them as per UCL guidelines. Nevertheless, this needs to be your own work, so you should not request help from anyone else.
+
+Marking criteria
+The marking feedback sheet used for this assessment is available on Moodle. The marks are divided up:
+
+Appropriateness of proposed analytical methods – 20%
+Quality of analytical techniques – 20%
+Interpretation of findings – 30%
+Clarity and quality of report (layout, formatting) – 20%
+Quality of code (clarity, documentation) – 10%
+Marks and feedback will be provided within 4 weeks of the submission of the reports.
