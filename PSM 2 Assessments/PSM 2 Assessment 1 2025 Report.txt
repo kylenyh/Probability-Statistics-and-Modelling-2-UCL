@@ -1,0 +1,86 @@
+
+
+PSM 2 Assessment 1 Report 2025
+
+Question 1
+
+1a. The intern made a good attempt to explore the data but made a mistake. While the variables trstplc and atcherp are continuous variables, ancest is categorical, so it shouldn’t be included in a correlation plot, which is only suitable for continuous variables.
+The highest statistical correlation is between people’s trust in the police and their emotional attachment to Europe, with a correlation coefficient of 0.27. This indicates a weak positive relationship, suggesting that individuals who feel more emotionally attached to Europe tend to have slightly higher levels of trust in the police.
+In contrast, the lowest statistical association is between trust in the police and people’s ancestral identification, with a correlation coefficient of 0.051. This suggests that there is nearly no relationship between these two variables, meaning that people’s ancestral identity has little to no direct correlation with their trust in the police.
+
+1b.  Firstly, people identifying as English shows a statistically significant (p < 0.05) lower level of trust in the police compared to those identifying as British. The negative point estimate (–0.364) indicates that among the respondents, a one-unit increase in the proportion people identifying as English is associated with an expected 0.364 decrease in police trust compared to British people. This therefore supports the intern’s first hypothesis.
+Secondly, people identifying as other European shows a statistically significant (p < 0.05) higher level of trust in the police compared to those identifying as British. The positive point estimate (0.775) suggests that, among the respondents, a one-unit increase in the proportion of people identifying as other European is associated with an expected 0.775 increase in police trust compared to British people. This therefore supports the intern’s second hypothesis.
+Thirdly, people identifying as non-European shows a non statistically (p > 0.05) significant higher level of trust in the police compared to those identifying as British. The positive point estimate (0.224) suggests that, among the respondents, a one-unit increase in the proportion of people identifying as non European is associated with an expected 0.2245 increase in police trust compared to British people. This therefore does not support the intern’s third hypothesis.
+
+1c. 
+	Average (mean) trust in the police according to ancestral identification 
+British	6.60
+English	6.24
+Other European	7.38
+Outside of Europe 	6.82
+
+1d. The colleague is partly right. Changing the reference category does not affect model fit or overall statistics like R-squared, but it does change the interpretation of the coefficients. Since each coefficient reflects a comparison to the reference group, changing that group would affect the results. This matters when the objective is to compare specific groups, so it’s reasonable to be concerned.
+
+1e. In Model 2, after including the variable emotional attachment to Europe, the results for the ancestral identification variables changed notably compared to Model 1.
+For people identifying as English, the point estimate increased to –0.2299 and became non-statistically significant (p > 0.05), suggesting that English people are not less trusting of the police than British people.
+For people identifying as other Europeans, the point estimate decreased to 0.2714 and also became non-significant (p > 0.05), suggesting that other Europeans are more trusting of the police than British people.
+For people identifying as non-Europeans, the point estimate decreased to 0.0586 and remained non-significant (p > 0.05), suggesting that non European people are less trusting of the police than British people.
+These changes suggest that emotional attachment to Europe explains part of the variation in police trust previously linked to ancestry, showing that they may be more influential than ancestral identification alone.
+
+1f. I partially agree with the intern’s statement. The results shown in Model 2 can reveal patterns or relationships in the data that may lead to new hypotheses. However, statistical models do not prove causation and the patterns observed could be influenced by other factors. Non significant results, like the non-European variable from Model 2 shows that not all trends in data are meaningful or worth building hypotheses upon without caution.
+
+1g. Yes, I agree with Steinbeck’s view. He highlights that all knowledge is shaped by the time, culture and personal biases of those who create it. This shows that even scientific discoveries are not completely objective but are influenced by who is asking the questions and how they interpret the results. Realizing this can ensure that a critical and open-mind is being kept in how knowledge is understood, rather than assuming it is always fixed or neutral.
+
+
+
+
+
+
+
+Question 2
+
+2a. Firstly, holding all else constant, the victimisation variable shows that individuals who have not been victims of burglary in the last five years (2) significantly (p < 0.05) increase trust in the police by 0.369 compared to those who have been victims (1). 
+Secondly, all else being equal, the gender variable shows that being female (2) non-significantly (p > 0.05) increases trust in the police by 0.160 compared to males (1), suggesting that being female has no meaningful effect on trust in the police.
+Thirdly, the age variable has a negative point estimate (–0.002) and a statistically significant coefficient (p < 0.05), suggesting that for every additional year of age, there is a 0.002 decrease in trust in the police. 
+Together, these results show that victimisation and age statistically influence trust, while gender does not.
+
+2b. The intern’s claim is mostly correct, but oversimplified. Although low correlation coefficients suggest weak correlations, this does not necessarily mean that the variables wont affect the model. For example, even weakly correlated variables can influence the outcome if they have strong direct effects on the dependent variable, as seen with the victimisation and age variables in Model 3. Therefore, the intern's claim overlooks the independent influence that variables can have in a regression model.
+
+2c. In Table 2, Model 1 has an Adjusted R² of 1.1%, with AIC and BIC values of 9924.67 and 9970.11 respectively. Model 2 shows that the Adjusted R² increases to 7.2%, whilst the AIC and BIC values drop substantially to 9612.96 and 9680.94. This indicates that adding the emotional attachment variable significantly improves the model’s explanatory power and overall fit, making it an important predictor of trust in the police.
+However, in Model 3, the Adjusted R² increases only slightly to 7.6%. In contrast, both AIC and BIC increase to 9705.24 and 9756.31. While the increase in Adjusted R² suggests a minor improvement in explained variance, the increases in AIC and BIC signal that the added variables introduce more complexity without providing a meaningful influence.
+These results show that emotional attachment to Europe is a key explanatory, while the additional variables added in Model 3 contribute minimal explanatory.
+
+2d. Standardised estimates convert all variables to a common scale, typically z-scores, allowing for direct comparison of effect sizes across predictors and showing which variables have the strongest influence on the outcome variable. In Model 3.1, holding all else constant, a one standard deviation increase in victimisation by burglary in the last five years is associated with a 0.057 standard deviation increase in trust in the police. In comparison, controlling for all else, a one standard deviation increase in emotional attachment to Europe leads to a 0.250 standard deviation increase in trust in the police. 
+
+2e. Complete case analysis (CCA) removes any cases with missing data. This approach is acceptable when data are Missing Completely at Random (MCAR), meaning the missingness is unrelated to any variables. If data are not MCAR, CCA can lead to biased results and reduced accuracy.
+In Models 1–3, the number of cases only drops slightly (from 2167 to 2133), so the impact is minimal. As long as the missing data are likely random and the excluded cases aren’t systematically different, using CCA here is reasonable.
+
+
+
+
+
+
+
+Question 3
+
+3a. A probabilistic survey means that participants are selected using random sampling methods, where each person in the population has a known chance of being selected. This reduces selection bias and improves the validity of the results. In this context, a survey being representative means that the sample closely reflects the key characteristics of the broader population in Great Britain, such as age, gender and region, allowing the findings to be generalised to the entire population.
+
+3b. Reproducibility means that other researchers can use the same data and code to replicate the results and reach the same conclusions. Making the code open access increases transparency, allows for error checking and helps build trust in the research. This is important as it strengthens the credibility of the research and aligns with scientific best practices.
+
+3c. P-hacking is the practice of manipulating data or testing multiple hypotheses until statistically significant results are found. This increases the risk of false positives and reduces the validity of the findings. To prevent p-hacking, pre-registering hypotheses could be used by clearly stating the planned analyses in advance. This would making the research more reliable and robust over the long term.
+
+
+
+
+
+
+
+Question 4
+
+4a. a, c
+
+4b. e
+
+4c. a, b, c, e
+
+4d. a, c
